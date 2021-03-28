@@ -1,0 +1,74 @@
+html {
+	font-family: "Arial";
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+body {
+	background-color: #010;
+}
+
+header {
+	font-family: "Lucida Console";
+	background-color: #010;
+	color: green;
+	min-height: 3em;
+	display: flex;
+}
+header h5 {
+	margin: auto 0;
+	padding-left: 3em;
+}
+header h2 {
+	margin: auto 0;
+	padding-left: .3em;
+}
+
+article {
+	background-color: #fef;
+	padding: 3em 5em;
+	min-height: 70vh;
+}
+
+.itembox {
+	display: flex;
+}
+.item {
+	display: flex;
+	width: 15em;
+	height: 15em;
+	background-color: #010;
+	color: #fff;
+	border-radius: 5px;
+	text-align: center;
+	vertical-align: middle;
+	transition: border-radius .2s;
+}
+.item:hover {
+	border-radius: 15px;
+}
+.item:hover > .text {
+	font-size: 1.3em;
+}
+
+.text {
+	margin: auto;
+	font-size: 1.2em;
+	transition: font-size .2s;
+}
+
+
+
+
+
+footer {
+	font-family: "Lucida Console";
+	color: green;
+	font-size: .7em;
+	height: 10em;
+	display: flex;
+}
+footer div {
+	margin:  auto 25pt 15pt auto;
+}
