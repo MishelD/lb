@@ -34,6 +34,9 @@ article {
 .itembox {
 	display: flex;
 }
+.itembox a {
+	margin: 15pt;
+}
 .item {
 	display: flex;
 	width: 15em;
