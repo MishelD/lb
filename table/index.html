@@ -3,11 +3,109 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Таблица</title>
+	<title>Fakebook</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="../css/normalize.css">
 </head>
 <body>
-	
+	<table>
+		<caption class="head">
+			<h1>Fakebook</h1>
+		</caption>
+		<tr class="body">
+			<th class="nav" valign="top">
+				<div class="navbtn">
+					<ul type="none" style="padding: 0 3em 0 0">
+						<li><a href="">Home</a></li>
+						<li><a href="" class="active">News</a></li>
+						<li><a href="">Messenger</a></li>
+						<li><a href="">Friends</a></li>
+						<li><a href="">Music</a></li>
+					</ul>
+				</div>
+			</th>
+			<th class="content">
+				<div class="crt_post" style="border-radius: 10px; width: 90%; margin: 1em auto; background-color: #fff1">
+					<form>
+						<p>
+							<input type="search" placeholder="Что нового?" style="border-radius: 50px; border: none; height: 2.5em; width: 30em; background: #242526;"> 
+							<input type="submit" value="Опубликовать" style="border-radius: 50px; border: none; height: 2.5em; background: #2d88ff; color: #fff;">
+						</p>
+					</form>
+				</div>
+
+				<div class="post" style="border-radius: 10px; width: 90%; margin: 1em auto; background-color: #fff1">
+					<div class="top" style="text-align: left; display: flex;">
+						<div class="logo" style="background-image: url('https://pbs.twimg.com/profile_images/944308530949033986/M5p5pdsO_400x400.jpg'); background-size: 100%; background-repeat: no-repeat"></div>
+						<div class="inf" style="padding-left: 1em; padding-top: 1.3em">
+							<a href="" style="">MishutkaGames</a>
+							<div class="time_ago" style="color: #fff1; font-weight: 200; padding-top: .3em">30 second ago</div>
+						</div>
+					</div>
+					<div class="bottom" style="text-align: left; display: flex; flex-direction: column; padding: 1em;">
+						<p>
+							Тестирую процедурную генерацию
+							<br>
+							Survive One
+						</p>
+						<img src="https://pbs.twimg.com/media/D0vtOQ4WsAAEw2q?format=png&name=medium" alt="">
+					</div>
+				</div>
+
+				<div class="post" style="border-radius: 10px; width: 90%; margin: 1em auto; background-color: #fff1">
+					<div class="top" style="text-align: left; display: flex;">
+						<div class="logo" style="background-image: url('https://avatars.mds.yandex.net/get-ynews-logo/50744/254154182-1550152741834-square/logo-square'); background-size: 100%; background-repeat: no-repeat"></div>
+						<div class="inf" style="padding-left: 1em; padding-top: 1.3em">
+							<a href="" style="">Культуромания</a>
+							<div class="time_ago" style="color: #fff1; font-weight: 200; padding-top: .3em">9 hours ago</div>
+						</div>
+					</div>
+					<div class="bottom" style="text-align: left; display: flex; flex-direction: column; padding: 1em;">
+						<p>
+							Суд в Москве оштрафовал Twitter почти на 9 млн рублей по трем протоколам
+							<br>
+							<br>
+							Таганский суд Москвы оштрафовал социальную сеть Twitter на 8,9 миллионов рублей по трем протоколам Роскомнадзора. Об этом в пятницу сообщили в пресс-службе суда. Соцсеть была оштрафована за систематические отказы удалять противоправный контент.
+						</p>
+						<img src="https://kulturomania.ru/upload/iblock/64a/64acd67934020a1b26c393278979707a.jpg" alt="" class="">
+					</div>
+				</div>
+
+				<div class="post" style="border-radius: 10px; width: 90%; margin: 1em auto; background-color: #fff1">
+					<div class="top" style="text-align: left; display: flex;">
+						<div class="logo" style="background-image: url('https://avatars.mds.yandex.net/get-ynews-logo/50744/1551-1563808847385-square/logo-square'); background-size: 100%; background-repeat: no-repeat"></div>
+						<div class="inf" style="padding-left: 1em; padding-top: 1.3em">
+							<a href="" style="">ТАСС</a>
+							<div class="time_ago" style="color: #fff1; font-weight: 200; padding-top: .3em">12 hours ago</div>
+						</div>
+					</div>
+					<div class="bottom" style="text-align: left; display: flex; flex-direction: column; padding: 1em;">
+						<p>
+							Данные более 533 млн пользователей Facebook попали в открытый доступ
+							<br><br>
+							НЬЮ-ЙОРК, 3 апреля. / ТАСС/. Личные данные более 533 млн пользователей социальной сети Facebook были выложены на хакерском форуме.
+						</p>
+						<img src="https://avatars.mds.yandex.net/get-ynews/2395724/496caf98a37d1f5e14b9a0be4fae5195/254x173" alt="" class="">
+					</div>
+				</div>
+
+				<div class="post" style="border-radius: 10px; width: 90%; margin: 1em auto; background-color: #fff1">
+					<div class="top" style="text-align: left; display: flex;">
+						<div class="logo" style="background-image: url('https://pbs.twimg.com/profile_images/1289880617807560706/XZHuHLNb_400x400.jpg'); background-size: 100%; background-repeat: no-repeat"></div>
+						<div class="inf" style="padding-left: 1em; padding-top: 1.3em">
+							<a href="" style="">Nature & Animals🌴</a>
+							<div class="time_ago" style="color: #fff1; font-weight: 200; padding-top: .3em">2 days ago</div>
+						</div>
+					</div>
+					<div class="bottom" style="text-align: left; display: flex; flex-direction: column; padding: 1em;">
+						<p>
+							A Sand cat and her mini meow. Cute but tough survivors...
+						</p>
+						<img src="https://pbs.twimg.com/media/EnllkSsUwAAET7K?format=jpg&name=medium" alt="" class="">
+					</div>
+				</div>
+			</th>
+		</tr>
+	</table>
 </body>
 </html>
